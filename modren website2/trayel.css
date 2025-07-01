@@ -1,0 +1,48 @@
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+   
+}
+#elem-container{
+    background: #c0c0c0;
+}
+.elem{
+    /* position: relative; */
+    height: 90px;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+   overflow: hidden;
+}
+
+.elem .overlay{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    top: -100%;
+    transition: all ease 0.3s;
+}
+.elem:hover .overlay{
+    top: 0;
+}
+.elem h1{
+    position: absolute;
+    margin: 0vw 4vw;
+}
+#fixed-img{
+    height: 30vw;
+    width: 22vw;
+    /* background-color: red; */
+    z-index: 99;
+    position:absolute;
+    background-position: center;
+    background-size: cover;
+    left:55%;
+    border-radius: 10px;
+    top: 10%;
+
+}

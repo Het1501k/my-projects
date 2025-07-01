@@ -1,0 +1,353 @@
+@font-face {
+    font-family: font ;
+    src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+  z-index: 10;
+  position: relative;
+  background-color: #EFEAE3;
+}
+#page1{
+    min-height: 100vh;
+    width: 100%;
+   
+    padding: 1px 2vw;
+
+}
+nav{
+    width: 100%;
+    padding: 2vw 0vw;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+#nav-part2>h4{
+    padding: 10px 20px;
+    border: solid 1px rgb(58, 53, 53);
+    border-radius: 50px;
+    font-weight: 600;
+    color:#0000009c;
+    position: relative;
+    font-size: 18px;
+    transition: all ease 0.3s;  
+    overflow: hidden;
+
+}
+#nav-part2 h4::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    bottom: -100%;
+    left: 0;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+}
+#nav-part2 h4:hover::after{
+    bottom: 0;
+   border-radius: 0;
+}
+#nav-part2 h4 a{
+    text-decoration: none;
+    color: #000;
+    z-index: 9;
+    position: relative;
+}
+#nav-part2 h4:hover a{
+    color: #fff;
+
+}
+#center{
+    height: 65vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #0000009c;
+    padding-bottom: 2.5vw;
+   
+}
+#left h3{
+    width: 20vw;
+    font-size: 22px;
+    line-height: 2vw;
+
+    
+}
+#center>#right>h1{
+    font-size: 8vw;
+    line-height: 7vw;
+    text-align: right;
+
+}
+#page1>video{
+    position: relative;
+    width: 100%;
+    margin-top: 4vw;
+    border-radius: 25px;
+    
+}
+
+
+#hero-shape{
+  
+    position: absolute;
+    height: 40vw;
+    width: 40vw;
+    right: 0;
+    top:70vh;
+  
+
+}
+#hero1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #FE350A;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    filter: blur(20px);
+}
+#hero2{
+    position: absolute;
+    height: 30vw;
+    width: 30vw;
+    background-color: #FE350A;
+border-radius: 50%;
+    filter: blur(20px);
+    animation-name: anime2;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+#hero3{
+    background: linear-gradient(#FE350A,#e95900);
+    position: absolute;
+    height: 30vw;
+    width: 30vw;
+    background-color: #FE350A;
+    border-radius: 50%;
+    filter: blur(20px);
+    animation-name: anime1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes anime1{
+    from{
+        transform: translate(45%,-3%)
+    }
+    to{
+        transform: translate(0%,10%)
+    }
+}
+@keyframes anime2{
+    from{
+        transform: translate(5%,-5%)
+    }
+    to{
+        transform: translate(-20%,30%)
+    }
+}
+
+#page2{
+    padding: 8vw 0vw;
+   min-height:100vh;
+    width: 100%;
+    position: relative;
+    
+}
+#moving-text{
+    white-space: nowrap;
+    overflow-x:auto ;
+    
+
+
+}
+#moving-text::-webkit-scrollbar{
+    display: none;
+
+}
+.con{
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+   
+
+}
+#moving-text h1{
+    font-size: 9vw;
+    display: inline-block;
+  
+    align-items: center;
+
+}
+#gola{
+    align-items: center;
+    margin: 1vw 2vw;
+  
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #FE350A;
+    display: inline-block;
+}
+
+@keyframes move{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+#page2-bottom{
+    height: 80vh;
+    width: 100%;
+    padding: 3vw  4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 9;
+}
+#page2-bottom>h1{
+    font-size: 3.5vw;
+    width: 55%;
+}
+#bottom-part2{
+    width: 25%;
+   
+
+}
+#bottom-part2>img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+#bottom-part2>p{
+    padding-top: 3vw;
+    font-weight: 100;
+    font-size: 18px;
+    width: 100%;
+    opacity: 0.7;
+}
+#page2 #gooey{
+    height: 32vw;
+    width: 32vw;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to top,#ff2f00,#ea752c);
+    top: 58%;
+    left: 25%;
+    filter: blur(20px);
+    animation-name: gooey;
+    animation-duration:5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out
+}
+@keyframes gooey{
+    from{
+        filter: blur(20px);
+        transform: translate(10%,-10%) skew(0deg);
+    }
+    to{
+        filter: blur(30px);
+        transform: translate(-10%,10%) skew(-13deg);
+    }
+}
+#page3{
+min-height: 76vh;
+width: 100%;
+background-color: #EFEAE3;
+padding: 4vw ovw;
+
+
+}
+
+
+.elem{
+    position: relative;
+   border-bottom:2px solid #0000007d;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    overflow: hidden;
+}
+.elem>h2{
+    font-size: 3vw;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+    z-index: 9;
+}
+.elem .overlay{
+    height: 100%;  
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all ease 0.3s;
+}
+.elem:hover .overlay{
+    top: 0;
+}
+#elem-container{
+    /* background-color: red; */
+}
+#fixed-img{
+    height: 28vw;
+    width: 22vw;
+    /* background-color: red; */
+    border-radius: 10px;
+    position: fixed;
+    z-index: 99;
+    left: 55%;
+    top: 30%;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
+#footer{
+    height: 100vh;
+    width: 100%;
+    z-index: 9;
+    background-color: #000;
+    position: fixed;
+}
+
+
