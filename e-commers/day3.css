@@ -1,0 +1,497 @@
+html,body{
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: serif;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+#page1{
+    
+    height: 100%;
+    width: 100%;
+   background-image: url(https://themewagon.github.io/Romyk/images/banner-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+nav>img{
+    padding-left: 100px;
+}
+
+#nav-part2{
+    transition-duration: 1.5s;
+
+}
+
+#nav-part2>a{
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+    transition-duration: 1.5s;
+
+}
+#nav-part2>a:hover{
+    color: pink;
+}
+#last-a{
+  
+   margin-right: 100px;
+}
+#last-i{
+     margin-right: 100px;
+    transition-duration: 1.5s;
+}
+#last-i:hover{
+    color: pink;
+}
+#main-part{
+   height: 90vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: row;
+
+}
+#slidbar{
+    height: 100vh;
+    width: 58vh;
+    /* background-color: rgb(43, 163, 123); */
+    padding-left: 100px;
+    padding-top: 120px;
+    /* background-image: url(banner-img.png); */
+    
+}
+#one{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+#two{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #e88bba;
+    color: white;
+    border: none;
+}
+#hetvi{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#hetvi>img{
+    padding-top: 30px;
+    height: 350px;
+    width: 585px;
+    padding-left: 290px;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: yellow; */
+    display: flex;
+}
+#page2-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: #e88bba; */
+
+}
+#sonu1{
+    height: 106%;
+    width: 80%;
+    padding-left: 100px;
+}
+#page2-right>h1{
+
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 20px;
+}
+#page2-right>p{
+    padding-left: 20px;
+    font-size: 20px;
+}
+#page2-right>button{
+    margin-left: 20px;
+    width: 170px;
+}
+#page3{
+     height: 200vh; 
+     width: 100%;  
+    margin-right: 0;
+    background-color: whitesmoke;
+    
+}
+#flex-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    background-color: whitesmoke;
+    border-radius: 80px;
+    
+}
+.flex-box{
+    width: 300px;
+    height: 400px;
+    /* background-color: white; */
+    color: rgb(93, 66, 66);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 30px;
+    transition: transform .2s ease;
+    
+}
+.flex-box:hover{
+    transform: scale(1.1);
+}
+
+.flex-boxtop>img{
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+}
+
+.flex-boxtop{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+     height: 250px;
+    background-color: #ddd;
+}
+.flex-boxtop:hover{
+    background-color: bisque;
+}
+
+.flex-boxbottom{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    line-height: 1;
+     height: 150px;
+    margin-top: -25px;
+    background-color: white;
+}
+.flex-boxbottom>button{
+   border-radius: 50px;
+   border:1px solid #e88bba;
+   background-color: white;
+   color: #e88bba;
+   transition-duration: 1.5s;
+}
+.flex-boxbottom>button:hover{
+    /* background-color: white; */
+    color: black;
+    border: 1px solid black;
+    
+}
+#seven{
+    margin-left: 670px;
+    margin-top: 70px;
+    font-size: 15px;
+    padding: 20px 70px;
+    
+}
+#seven:hover{
+    background-color: black;
+    color: white;
+}
+#eight{
+    padding-top: 70px;
+    margin-left: 70px;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+#nine{
+    margin-left: 70px;
+    font-size: 20px;
+    padding-bottom: -10px;
+}
+
+#page4{
+    height: 200vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    margin-top: -100px;
+
+    
+}
+#eleven{
+    margin-left: 70px;
+    font-size: 45px;
+}
+#ten{
+    margin-left: 70px;
+    font-size: 20px;
+     
+}
+#div2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div3{
+    height: 190px;
+    width: 380px;
+    border: 1px solid #e88bba;
+   
+    
+}
+.iceee{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.d1{
+    margin-left: 70px;
+    margin-top: -40px;
+}
+.ee{
+    margin-left: 33px;
+    font-size: 20px
+}
+#test{
+    margin-top: 100px;
+    margin-left: 10px;
+    font-size: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+#test2{
+    padding-bottom: 100px;
+}
+#page4-main{
+    display: flex;flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#test1{
+
+    width: 1000px;
+    height: 360px;
+    /* background-color: #c0c0c0; */
+    /* margin-left: 150px; */
+    margin-top: 90px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#page4-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: #000; */
+    margin-left: 55vh;
+    padding-bottom: 100px;
+    
+}
+#hiii{
+    display: flex;
+}
+.test3{
+    font-size: 30px;
+    
+}
+.gooo{
+    width: 200px;
+    height: 200px;
+    /* padding-top: 10px; */
+}
+#page4-button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#seven1{
+    margin-left: -30px;
+    width: 100px;
+    height: 70px;
+}
+#seven2{
+    margin-left: 870px;
+    width: 100px;
+
+    height: 70px;
+}
+#page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+#page5-left{
+    height: 90vh;
+    width: 40vw;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#page5-left>h1{
+    color: #fff;
+}
+#page5-left .input-box{
+    width: 70%;
+    height: 45px;
+    margin-top: 25px;
+    margin-left:100px ;
+    position: relative;
+    /* background: #000; */
+    color: #000;
+}
+
+#page5-left .input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    background-color: #000;
+    color: #ddd;
+   
+    
+}
+page5-left .underline::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    /* left: 0;
+    bottom: 0; */
+
+}
+#page5-left .underline:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(135deg,#fff,#c0c0c0);
+    /* left: 0;
+    bottom: 0; */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s ease;
+}
+
+#page5-left .input-box input:focus ~ .underline:after,
+#page5-left .input-box input:valid ~ .underline:after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+#page5-right{
+    height: 90vh;
+   width: 60vw; 
+    background-color: black;
+    color: white;
+    
+}
+
+#page5-div{
+    padding-top: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#page5-right>#middel{
+    display: flex;
+    
+}
+
+
+.input-box button{
+
+    padding: 15px 50px;
+}
+#page5-div1{
+    display: flex;
+    margin-left: 20%;
+
+}
+#page5-div1 input{
+    width: 350px;
+    font-size: 20px;
+    border: none;
+    text-transform: capitalize;
+}
+.page5-button{
+    border-radius: 0px;
+    font-size: 16px;
+    padding: 20px 20px;
+}
+.page5class{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#page5-icon{
+    font-size: 26px;
+    transition-duration: 1s;
+}
+#page5-icon:hover{
+    color: #e88bba;
+}
+#page5-b1{
+    font-size: 20px;
+    padding-left: 430px;
+    padding-top: 40px;
+   
+}
+#page5-b1>a{
+    margin: 10px;   
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: #000;
+ 
+}
+#page5-bottom{
+    height: 10vh;
+    width: 100vw;
+    /* background-color: #e88bba; */
+    position: absolute;
+    top: 90%;
+    color: white;
+
+}
+#page5-bottom #line{
+    height: 2px;
+    width: 80%;
+    margin-left: 20vh;
+    background-color: white;
+}
+#page5-bottom>p{
+    text-align: center;
+    font-size: 20px;
+}
