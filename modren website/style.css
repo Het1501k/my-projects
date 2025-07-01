@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    
+
+    
+}
+/* .bounding{
+    width: fit-content;
+    overflow: hidden;
+    color: white;
+    background-color: white;
+} */
+.bounding>.boundingelem{
+    transform: translateY(-20%);
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    color: white;
+}
+#nav{
+  width: 100%;
+  padding: 20px 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+    line-height: 1;
+    font-size: 9vw;
+    font-family: 'General Sans Medium';
+    font-weight: 900;
+    margin-left: 40px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.blocktext>#heading-2{
+    margin-left: 230px;
+}
+.blocktext{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+#small-heading{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#small-heading h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1vw;
+    padding-right: 40px;
+    margin-top: .3vw;
+    line-height: 1.5;
+}
+#home-footer{
+    padding: 0 2vw;
+    margin-top: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#home-footer #iconset{
+    display: flex;
+    gap: 10px;
+}
+#home-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+#home-footer .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding-right: 10vw;
+    color: white;
+    padding-top: 70px;
+    
+}
+#elem{  
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 2vw 1vw;
+    padding-right: 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ 
+}
+#elem h1{
+    font-size: 6vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.elem-last{
+    border-bottom: 1px solid #888;
+}
+#elem img{
+    position: absolute;
+    z-index: 999;
+    height: 100%;
+    display: none;
+}
+#page3{
+    padding: 4vw 8vw;
+    padding-left: 10vw;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#text-page3{
+    width: 30rem;
+    margin-left: 1vw;
+}
+#text-page3 h5{
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+    opacity: 0.6;
+}
+#text-page3 p{
+    line-height: 1.7;
+    margin-bottom: 2vw;
+}
+#text-page3 a{
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    font-weight: 500;
+    display: inline-block;
+   
+}
+#page3 img{
+    
+    width: 200px;
+    object-fit: cover;
+}
+#page4{
+    padding: 20px 40px;
+    padding-bottom: 100px;
+    color: white;
+    background-color: black;
+}
+#page4 h5{
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+    opacity: 0.6;
+}
+#page4 h3{
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+    
+}
+#footer{
+    padding: 20px 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#footer-left h5{
+    font-size: 1vw;
+    opacity: 0.6;
+}
+#footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#footer-right a{
+    font-size: 1vw;
+    opacity: 0.6;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1vw;
+    margin-right: 20px;
+    
+}
+
+
+
+
